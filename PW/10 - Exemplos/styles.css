@@ -1,0 +1,15 @@
+#imagens {
+  float: left;
+}
+
+img {
+  width: 75px;
+}
+
+#div-pessoa {
+  float: right;
+}
+
+#pessoa {
+  width: 200px;
+}
