@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 02.01</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Jorge Ramon</h2>
+
+      <div class="form-row top-section">
+        <div class="form-group">
+          <label>First Name:</label>
+          <input type="text" value="Jorge" />
+
+          <label>Last Name:</label>
+          <input type="text" value="Ramon" />
+
+          <label>Company:</label>
+          <input type="text" value="MiamiCoder" />
+
+          <label>Title:</label>
+          <input type="text" value="Mr" />
+        </div>
+
+        <div class="profile-section">
+          <img
+            src="https://via.placeholder.com/100x120"
+            alt="Profile Picture"
+          />
+          <button>Change Picture</button>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="form-row">
+        <fieldset>
+          <legend>Phone Numbers</legend>
+          <label>Home:</label>
+          <input type="text" />
+
+          <label>Business:</label>
+          <input type="text" value="555 555-5555" />
+
+          <label>Mobile:</label>
+          <input type="text" />
+
+          <label>Fax:</label>
+          <input type="text" />
+        </fieldset>
+
+        <fieldset>
+          <legend>Internet</legend>
+          <label>Email:</label>
+          <input type="email" value="ramonj@miamicoder.com" />
+
+          <label>Web page:</label>
+          <input type="url" value="http://www.miamicoder.com" />
+
+          <label>IM:</label>
+          <input type="text" />
+        </fieldset>
+      </div>
+
+      <hr />
+
+      <div class="form-row">
+        <fieldset class="address">
+          <legend>Addresses</legend>
+          <label>Business</label>
+          <textarea rows="3">
+123 Acme Rd #001
+Miami, FL 33133</textarea
+          >
+          <div>
+            <input type="radio" name="mailing" checked />
+            <label>Mailing Address</label>
+          </div>
+        </fieldset>
+
+        <fieldset class="address">
+          <label>Home</label>
+          <textarea rows="3"></textarea>
+          <div>
+            <input type="radio" name="mailing" />
+            <label>Mailing Address</label>
+          </div>
+        </fieldset>
+      </div>
+
+      <div class="buttons">
+        <button>Save</button>
+        <button>Cancel</button>
+      </div>
+    </div>
+  </body>
+</html>
