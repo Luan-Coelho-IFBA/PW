@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exer 2</title>
+  </head>
+  <body>
+    <form
+      id="form"
+      style="display: flex; flex-direction: column; width: 400px; margin: auto"
+    >
+      <h1>Formulário</h1>
+      <label for="nome">Nome:</label>
+      <input type="text" name="nome" id="nome" />
+
+      <label for="email">Email:</label>
+      <input type="text" name="email" id="email" />
+
+      <label for="cidade">Cidade:</label>
+      <input type="text" name="cidade" id="cidade" />
+
+      <label for="estado">Estado:</label>
+      <select name="estado" id="estado">
+        <option value="">Selecione</option>
+        <option value="SP">SP</option>
+        <option value="BA">BA</option>
+        <option value="PA">PA</option>
+      </select>
+      <label for="mensagem">Mensagem:</label>
+      <textarea name="mensagem" id="mensagem"></textarea>
+      <input
+        type="submit"
+        value="Enviar"
+        style="margin: auto; margin-top: 20px; width: 100px"
+      />
+    </form>
+  </body>
+  <script src="exer2.js"></script>
+</html>
